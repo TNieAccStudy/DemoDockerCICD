@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    image: tnieyustudyacc176/base-web-js:latest
+    ports:
+      - "7200:3000"
+    environment:
+      - PORT=3000
